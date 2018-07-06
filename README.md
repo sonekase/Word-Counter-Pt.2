@@ -2,7 +2,7 @@
 
 ##### A Word Counter program.
 
-#### By Anousone Kaseumsouk, 06.29.2018
+#### By Anousone Kaseumsouk, 07.06.2018
 
 ## Description
 

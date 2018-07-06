@@ -1,4 +1,37 @@
-<h3>Your Word:</h3> @Model.GetWord()
-<br> <h3>Your Sentence:</h3> @Model.GetSentence()
-<br> <h3>Word Count:</h3> @Model.GetCount()
-<h3><a href='/newcounter/new'>Add a new word<a/></h3>
+<style>
+ body {
+ background-color: rgba(0,0,0,0.1);
+ color: #708090;
+ font-size: 45px;
+ font-family: impact;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+ text-transform: capitalize;
+ }
+
+.style{
+  border-style: solid;
+  border-color: #FFF;
+  background-color: rgba(0,0,0,0.10);
+  border-radius: 12px;
+  text-transform: capitalize;
+}
+
+h3{
+  color: #FFF;
+}
+
+ a {
+ color: #FFF;
+ text-decoration: none;
+ border-style: solid;
+ border-radius: 12px;
+ background-color: rgba(0,0,0,0.10);
+ }
+ </style>
+
+<h3 class="style">Your Word:</h3> @Model.GetWord()
+<br> <h3 class="style">Your Sentence:</h3> @Model.GetSentence()
+<br> <h3 class="style">Word Count:</h3> @Model.GetCount()
+<h3><a href='/newcounter/new'>Add new word</a></h3>
